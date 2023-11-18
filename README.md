@@ -12,3 +12,12 @@ So I wrote a simple plugin that gives you a `Merge Segments by Distance` option 
 To use this, simply copy the python script to the scripting tab and hit run.  Once you have the script you should have the
 option under the curve context menu in Edit Mode.  By default it will only merge directly overlapping segments, however,
 there is a popup once you have run it to adjust this tolerance.
+
+## Sample of a broken curve
+![Curve that is actually 3 segments](Screenshot.png)
+
+This addon was inspired by Crantisz' addon.
+
+[Blender Curve Remove Doubles Addon](https://github.com/crantisz/blender-curve-remove-doubles-addon)
+
+This plugin was tested on blender 3.6 but is generic enough it should work and just about any version 2.8+
